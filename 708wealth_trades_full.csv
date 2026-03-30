@@ -1,0 +1,6 @@
+Code,Market Code,Instrument Currency,Date,Type,Quantity,Price,Exchange Rate,Brokerage,Brokerage Currency,Comments
+BHP,ASX,AUD,2023-08-21,Buy,150,46.20,1.00,9.00,AUD,Initial buy order
+NAB,ASX,AUD,2023-09-12,Buy,100,28.90,1.00,8.50,AUD,Adding to portfolio
+WES,ASX,AUD,2023-11-01,Buy,75,52.10,1.00,7.75,AUD,Diversifying
+BHP,ASX,AUD,2024-01-18,Sell,150,49.50,1.00,9.25,AUD,Partial sell-off
+TLS,ASX,AUD,2024-03-05,Buy,300,3.85,1.00,5.00,AUD,Long-term position

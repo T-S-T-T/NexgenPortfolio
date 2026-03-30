@@ -1,0 +1,6 @@
+Code,Market Code,Instrument Currency,Date,Type,Quantity,Price,Exchange Rate,Brokerage,Brokerage Currency,Comments
+MQG,ASX,AUD,2023-07-25,Buy,30,172.40,1.00,12.00,AUD,Initial position
+WBC,ASX,AUD,2023-09-18,Buy,80,21.75,1.00,10.50,AUD,Banking sector exposure
+TLS,ASX,AUD,2023-11-20,Buy,150,4.10,1.00,5.00,AUD,Telecom holding
+MQG,ASX,AUD,2024-02-29,Sell,30,180.00,1.00,11.00,AUD,Profit taken
+WOW,ASX,AUD,2024-04-10,Buy,60,35.60,1.00,8.00,AUD,Consumer staples

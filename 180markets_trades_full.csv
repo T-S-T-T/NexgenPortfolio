@@ -1,0 +1,5 @@
+Code,Market Code,Instrument Currency,Date,Type,Quantity,Price,Exchange Rate,Brokerage,Brokerage Currency,Comments
+BHP,ASX,AUD,2023-09-01,Buy,100,45.50,1.00,10.00,AUD,Initial investment
+CBA,ASX,AUD,2023-10-15,Buy,50,98.25,1.00,9.50,AUD,Long term hold
+BHP,ASX,AUD,2024-02-10,Sell,100,50.00,1.00,8.00,AUD,Profit booking
+TLS,ASX,AUD,2024-03-20,Buy,200,3.65,1.00,5.00,AUD,Low risk investment

@@ -1,0 +1,6 @@
+Code,Market Code,Instrument Currency,Date,Type,Quantity,Price,Exchange Rate,Brokerage,Brokerage Currency,Comments
+RIO,ASX,AUD,2023-06-12,Buy,40,110.75,1.00,12.50,AUD,Initial investment
+ANZ,ASX,AUD,2023-08-03,Buy,70,24.60,1.00,10.00,AUD,Adding bank stock
+WES,ASX,AUD,2023-10-27,Buy,90,49.85,1.00,8.75,AUD,Diversification
+RIO,ASX,AUD,2024-01-15,Sell,40,115.90,1.00,11.25,AUD,Profit realization
+CSL,ASX,AUD,2024-03-22,Buy,35,275.40,1.00,13.00,AUD,Healthcare exposure

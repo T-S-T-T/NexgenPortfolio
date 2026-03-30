@@ -1,0 +1,5 @@
+Contract Note Number,Transaction Date,Stock Code,Stock Name,Transaction Type,Quantity,Price per Share,Brokerage,Total Amount,Settlement Date,Comments
+CN001,01/09/2023,BHP,BHP Group Ltd,Buy,100,45.50,10.00,4560.00,04/09/2023,Initial buy order
+CN002,15/10/2023,CBA,Commonwealth Bank,Buy,50,98.25,9.50,4921.75,18/10/2023,Investment buy
+CN003,10/02/2024,BHP,BHP Group Ltd,Sell,100,50.00,8.00,4992.00,13/02/2024,Profit booking
+CN004,20/03/2024,TLS,Telstra Corporation,Buy,200,3.65,5.00,735.00,25/03/2024,Defensive stock
