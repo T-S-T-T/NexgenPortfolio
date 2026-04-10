@@ -1,0 +1,240 @@
+{
+  "status": "ok",
+  "meta": {
+    "engine_version": "1.0.0",
+    "calculated_at": "2026-04-10T02:32:32.128Z",
+    "financial_year": "FY2024",
+    "entity_type": "super",
+    "parcel_matching": "minimise_tax",
+    "cgt_method_config": "auto"
+  },
+  "cgt_summary": {
+    "total_gross_gains": 4355,
+    "total_cgt_discount_applied": 1451.52,
+    "total_net_gains_after_discount": 2903.48,
+    "total_capital_losses": 2465,
+    "prior_year_carried_forward_loss_applied": 438.48,
+    "net_capital_gain": 0,
+    "new_carried_forward_loss": 2761.52
+  },
+  "dividend_summary": {
+    "total_cash_dividends": 3960,
+    "total_franking_credits": 1574.57,
+    "total_grossed_up_income": 5534.57
+  },
+  "cgt_events": [
+    {
+      "parcel_id": "P002",
+      "disposal_id": "S001",
+      "symbol": "ANZ",
+      "acquired_date": "2015-04-20",
+      "disposal_date": "2023-10-18",
+      "holding_days": 3103,
+      "units_disposed": 200,
+      "cost_base": 6600,
+      "indexed_cost_base": 6600,
+      "proceeds": 5575,
+      "raw_gain": -1025,
+      "cgt_method": "loss",
+      "discount_rate": 0,
+      "discount_applied": 0,
+      "net_gain": 0,
+      "capital_loss": 1025,
+      "is_loss": true
+    },
+    {
+      "parcel_id": "P003",
+      "disposal_id": "S002",
+      "symbol": "RIO",
+      "acquired_date": "2019-08-10",
+      "disposal_date": "2024-01-09",
+      "holding_days": 1613,
+      "units_disposed": 60,
+      "cost_base": 7440,
+      "indexed_cost_base": 7440,
+      "proceeds": 10170,
+      "raw_gain": 2730,
+      "cgt_method": "discount",
+      "discount_rate": 0.3333,
+      "discount_applied": 909.91,
+      "net_gain": 1820.09,
+      "capital_loss": 0,
+      "is_loss": false
+    },
+    {
+      "parcel_id": "P004",
+      "disposal_id": "S003",
+      "symbol": "WES",
+      "acquired_date": "2023-07-03",
+      "disposal_date": "2024-02-28",
+      "holding_days": 240,
+      "units_disposed": 100,
+      "cost_base": 5700,
+      "indexed_cost_base": 5700,
+      "proceeds": 5380,
+      "raw_gain": -320,
+      "cgt_method": "loss",
+      "discount_rate": 0,
+      "discount_applied": 0,
+      "net_gain": 0,
+      "capital_loss": 320,
+      "is_loss": true
+    },
+    {
+      "parcel_id": "P005",
+      "disposal_id": "S004",
+      "symbol": "MQG",
+      "acquired_date": "2021-11-22",
+      "disposal_date": "2024-04-15",
+      "holding_days": 875,
+      "units_disposed": 30,
+      "cost_base": 5550,
+      "indexed_cost_base": 5550,
+      "proceeds": 7175,
+      "raw_gain": 1625,
+      "cgt_method": "discount",
+      "discount_rate": 0.3333,
+      "discount_applied": 541.61,
+      "net_gain": 1083.39,
+      "capital_loss": 0,
+      "is_loss": false
+    },
+    {
+      "parcel_id": "P006",
+      "disposal_id": "S005",
+      "symbol": "QBE",
+      "acquired_date": "2022-02-14",
+      "disposal_date": "2024-06-20",
+      "holding_days": 857,
+      "units_disposed": 400,
+      "cost_base": 5200,
+      "indexed_cost_base": 5200,
+      "proceeds": 4080,
+      "raw_gain": -1120,
+      "cgt_method": "loss",
+      "discount_rate": 0,
+      "discount_applied": 0,
+      "net_gain": 0,
+      "capital_loss": 1120,
+      "is_loss": true
+    }
+  ],
+  "dividend_events": [
+    {
+      "dividend_id": "D001",
+      "symbol": "ANZ",
+      "payment_date": "2023-10-05",
+      "cash_amount": 1050,
+      "franking_percent": 100,
+      "franking_credits": 450,
+      "grossed_up_dividend": 1500
+    },
+    {
+      "dividend_id": "D002",
+      "symbol": "RIO",
+      "payment_date": "2024-01-20",
+      "cash_amount": 740,
+      "franking_percent": 100,
+      "franking_credits": 317.14,
+      "grossed_up_dividend": 1057.14
+    },
+    {
+      "dividend_id": "D003",
+      "symbol": "WES",
+      "payment_date": "2024-03-15",
+      "cash_amount": 390,
+      "franking_percent": 100,
+      "franking_credits": 167.14,
+      "grossed_up_dividend": 557.14
+    },
+    {
+      "dividend_id": "D004",
+      "symbol": "MQG",
+      "payment_date": "2024-04-30",
+      "cash_amount": 520,
+      "franking_percent": 45,
+      "franking_credits": 100.29,
+      "grossed_up_dividend": 620.29
+    },
+    {
+      "dividend_id": "D005",
+      "symbol": "QBE",
+      "payment_date": "2024-06-10",
+      "cash_amount": 210,
+      "franking_percent": 100,
+      "franking_credits": 90,
+      "grossed_up_dividend": 300
+    },
+    {
+      "dividend_id": "D006",
+      "symbol": "ANZ",
+      "payment_date": "2024-04-08",
+      "cash_amount": 1050,
+      "franking_percent": 100,
+      "franking_credits": 450,
+      "grossed_up_dividend": 1500
+    }
+  ],
+  "remaining_parcels": [
+    {
+      "parcel_id": "P001",
+      "symbol": "ANZ",
+      "acquired_date": "1997-06-15",
+      "original_quantity": 500,
+      "remaining_quantity": 500,
+      "remaining_cost_base": 8500,
+      "unit_cost_base": 17
+    },
+    {
+      "parcel_id": "P002",
+      "symbol": "ANZ",
+      "acquired_date": "2015-04-20",
+      "original_quantity": 300,
+      "remaining_quantity": 100,
+      "remaining_cost_base": 3300,
+      "unit_cost_base": 33
+    },
+    {
+      "parcel_id": "P003",
+      "symbol": "RIO",
+      "acquired_date": "2019-08-10",
+      "original_quantity": 100,
+      "remaining_quantity": 40,
+      "remaining_cost_base": 4960,
+      "unit_cost_base": 124
+    },
+    {
+      "parcel_id": "P004",
+      "symbol": "WES",
+      "acquired_date": "2023-07-03",
+      "original_quantity": 200,
+      "remaining_quantity": 100,
+      "remaining_cost_base": 5700,
+      "unit_cost_base": 57
+    },
+    {
+      "parcel_id": "P005",
+      "symbol": "MQG",
+      "acquired_date": "2021-11-22",
+      "original_quantity": 50,
+      "remaining_quantity": 20,
+      "remaining_cost_base": 3700,
+      "unit_cost_base": 185
+    }
+  ],
+  "method_breakdown": {
+    "loss": {
+      "event_count": 3,
+      "total_net_gain": 0,
+      "total_capital_loss": 2465,
+      "total_discount_applied": 0
+    },
+    "discount": {
+      "event_count": 2,
+      "total_net_gain": 2903.48,
+      "total_capital_loss": 0,
+      "total_discount_applied": 1451.52
+    }
+  },
+  "disposal_errors": []
+}

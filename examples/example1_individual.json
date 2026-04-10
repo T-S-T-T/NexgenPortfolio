@@ -1,0 +1,131 @@
+{
+  "config": {
+    "entity_type": "individual",
+    "parcel_matching": "fifo",
+    "cgt_method": "auto",
+    "financial_year": "FY2024",
+    "prior_year_carried_forward_loss": 0
+  },
+
+  "parcels": [
+    {
+      "parcel_id": "P001",
+      "symbol": "CBA",
+      "acquired_date": "2021-03-10",
+      "quantity": 200,
+      "cost_base": 14600,
+      "notes": "Includes $20 brokerage on purchase"
+    },
+    {
+      "parcel_id": "P002",
+      "symbol": "BHP",
+      "acquired_date": "2020-11-05",
+      "quantity": 150,
+      "cost_base": 7800
+    },
+    {
+      "parcel_id": "P003",
+      "symbol": "CSL",
+      "acquired_date": "2022-06-20",
+      "quantity": 20,
+      "cost_base": 5500
+    },
+    {
+      "parcel_id": "P004",
+      "symbol": "WBC",
+      "acquired_date": "2023-01-15",
+      "quantity": 300,
+      "cost_base": 9000,
+      "notes": "Short-term hold, no discount expected"
+    },
+    {
+      "parcel_id": "P005",
+      "symbol": "TLS",
+      "acquired_date": "2023-03-01",
+      "quantity": 500,
+      "cost_base": 1900,
+      "reduced_cost_base": 1820,
+      "notes": "Reduced cost base reflects prior return of capital distribution"
+    }
+  ],
+
+  "disposals": [
+    {
+      "disposal_id": "S001",
+      "symbol": "CBA",
+      "disposal_date": "2023-09-12",
+      "quantity": 100,
+      "gross_proceeds": 8200,
+      "brokerage": 20,
+      "notes": "Partial sale – held >12 months, discount applies"
+    },
+    {
+      "disposal_id": "S002",
+      "symbol": "BHP",
+      "disposal_date": "2024-01-22",
+      "quantity": 80,
+      "gross_proceeds": 5100,
+      "brokerage": 20,
+      "notes": "Held >12 months from Nov 2020"
+    },
+    {
+      "disposal_id": "S003",
+      "symbol": "WBC",
+      "disposal_date": "2024-03-05",
+      "quantity": 200,
+      "gross_proceeds": 5800,
+      "brokerage": 20,
+      "notes": "Short-term hold (<12 months) – no discount"
+    },
+    {
+      "disposal_id": "S004",
+      "symbol": "TLS",
+      "disposal_date": "2024-05-10",
+      "quantity": 300,
+      "gross_proceeds": 990,
+      "brokerage": 15,
+      "notes": "Capital loss – proceeds below reduced cost base"
+    }
+  ],
+
+  "dividends": [
+    {
+      "dividend_id": "D001",
+      "symbol": "CBA",
+      "payment_date": "2023-09-28",
+      "cash_amount": 840,
+      "franking_percent": 100,
+      "notes": "Fully franked interim dividend"
+    },
+    {
+      "dividend_id": "D002",
+      "symbol": "BHP",
+      "payment_date": "2023-12-15",
+      "cash_amount": 620,
+      "franking_percent": 100
+    },
+    {
+      "dividend_id": "D003",
+      "symbol": "WBC",
+      "payment_date": "2024-03-28",
+      "cash_amount": 480,
+      "franking_percent": 100
+    },
+    {
+      "dividend_id": "D004",
+      "symbol": "CSL",
+      "payment_date": "2024-02-20",
+      "cash_amount": 95,
+      "franking_percent": 20,
+      "notes": "Partially franked"
+    },
+    {
+      "dividend_id": "D005",
+      "symbol": "TLS",
+      "payment_date": "2023-10-10",
+      "cash_amount": 180,
+      "franking_credits": 38.57,
+      "notes": "Franking credits provided directly from dividend statement"
+    }
+  ]
+}

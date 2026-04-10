@@ -1,0 +1,155 @@
+{
+  "config": {
+    "entity_type": "super",
+    "parcel_matching": "minimise_tax",
+    "cgt_method": "auto",
+    "financial_year": "FY2024",
+    "prior_year_carried_forward_loss": 3200.00,
+    "notes": "SMSF – 33.33% CGT discount. Prior-year loss from FY2023 property disposal. Using minimise_tax matching."
+  },
+
+  "parcels": [
+    {
+      "parcel_id": "P001",
+      "symbol": "ANZ",
+      "acquired_date": "1997-06-15",
+      "quantity": 500,
+      "cost_base": 8500,
+      "notes": "Pre-21 Sep 1999 acquisition – indexation method potentially available (though SMSF cannot use indexation; engine will fall back to discount or other)"
+    },
+    {
+      "parcel_id": "P002",
+      "symbol": "ANZ",
+      "acquired_date": "2015-04-20",
+      "quantity": 300,
+      "cost_base": 9900,
+      "notes": "Second ANZ parcel – held >12 months, discount eligible"
+    },
+    {
+      "parcel_id": "P003",
+      "symbol": "RIO",
+      "acquired_date": "2019-08-10",
+      "quantity": 100,
+      "cost_base": 12400
+    },
+    {
+      "parcel_id": "P004",
+      "symbol": "WES",
+      "acquired_date": "2023-07-03",
+      "quantity": 200,
+      "cost_base": 11400,
+      "notes": "Acquired in FY2024, short-term hold"
+    },
+    {
+      "parcel_id": "P005",
+      "symbol": "MQG",
+      "acquired_date": "2021-11-22",
+      "quantity": 50,
+      "cost_base": 9250,
+      "reduced_cost_base": 9000,
+      "notes": "Reduced cost base reflects an earlier tax-deferred distribution"
+    },
+    {
+      "parcel_id": "P006",
+      "symbol": "QBE",
+      "acquired_date": "2022-02-14",
+      "quantity": 400,
+      "cost_base": 5200
+    }
+  ],
+
+  "disposals": [
+    {
+      "disposal_id": "S001",
+      "symbol": "ANZ",
+      "disposal_date": "2023-10-18",
+      "quantity": 200,
+      "gross_proceeds": 5600,
+      "brokerage": 25,
+      "notes": "minimise_tax will prefer P002 (higher unit cost $33) over P001 (unit cost $17)"
+    },
+    {
+      "disposal_id": "S002",
+      "symbol": "RIO",
+      "disposal_date": "2024-01-09",
+      "quantity": 60,
+      "gross_proceeds": 10200,
+      "brokerage": 30
+    },
+    {
+      "disposal_id": "S003",
+      "symbol": "WES",
+      "disposal_date": "2024-02-28",
+      "quantity": 100,
+      "gross_proceeds": 5400,
+      "brokerage": 20,
+      "notes": "Short-term hold: acquired Jul 2023, disposed Feb 2024 – no discount"
+    },
+    {
+      "disposal_id": "S004",
+      "symbol": "MQG",
+      "disposal_date": "2024-04-15",
+      "quantity": 30,
+      "gross_proceeds": 7200,
+      "brokerage": 25,
+      "notes": "Gain expected – held >12 months, 33.33% super discount applies"
+    },
+    {
+      "disposal_id": "S005",
+      "symbol": "QBE",
+      "disposal_date": "2024-06-20",
+      "quantity": 400,
+      "gross_proceeds": 4100,
+      "brokerage": 20,
+      "notes": "Capital loss – net proceeds below reduced cost base of $5200"
+    }
+  ],
+
+  "dividends": [
+    {
+      "dividend_id": "D001",
+      "symbol": "ANZ",
+      "payment_date": "2023-10-05",
+      "cash_amount": 1050,
+      "franking_percent": 100
+    },
+    {
+      "dividend_id": "D002",
+      "symbol": "RIO",
+      "payment_date": "2024-01-20",
+      "cash_amount": 740,
+      "franking_percent": 100
+    },
+    {
+      "dividend_id": "D003",
+      "symbol": "WES",
+      "payment_date": "2024-03-15",
+      "cash_amount": 390,
+      "franking_percent": 100
+    },
+    {
+      "dividend_id": "D004",
+      "symbol": "MQG",
+      "payment_date": "2024-04-30",
+      "cash_amount": 520,
+      "franking_percent": 45,
+      "notes": "Partially franked"
+    },
+    {
+      "dividend_id": "D005",
+      "symbol": "QBE",
+      "payment_date": "2024-06-10",
+      "cash_amount": 210,
+      "franking_credits": 90,
+      "notes": "Franking credits from dividend statement (exact amount known)"
+    },
+    {
+      "dividend_id": "D006",
+      "symbol": "ANZ",
+      "payment_date": "2024-04-08",
+      "cash_amount": 1050,
+      "franking_percent": 100,
+      "notes": "Second half-year ANZ dividend"
+    }
+  ]
+}
